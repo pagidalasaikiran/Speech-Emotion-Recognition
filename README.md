@@ -1,2 +1,15 @@
-# Speech-Recognition
-An ML-powered app that classifies emotions in speech (happy, sad, angry, etc.) using the RAVDESS dataset. Audio features are extracted with librosa, and emotion classification is performed using scikit-learn or PyTorch models. Ideal for emotion-aware applications in voice interfaces.
+# 🎙️ Speech Emotion Recognizer
+
+A machine learning app that classifies emotions from speech using the RAVDESS dataset. It extracts MFCC audio features and classifies emotions like happy, sad, angry, etc. using a Random Forest model.
+
+## 🔧 Tools Used
+- Python
+- librosa
+- scikit-learn
+- Gradio (optional UI)
+- RAVDESS Dataset
+
+## 🚀 How to Run
+
+1. Clone the repository
+2. Install dependencies:
